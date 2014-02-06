@@ -1,0 +1,175 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+  font-size: 14px;
+  line-height: 20px;
+}
+h1 {
+  margin: 10px 0px;
+  font-size: 38px;
+  line-height: 44px;
+  font-weight: 700;
+}
+h2 {
+  margin: 10px 0px;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 700;
+}
+h3 {
+  margin: 10px 0px;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+h4 {
+  margin: 10px 0px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
+h5 {
+  margin: 10px 0px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
+h6 {
+  margin: 10px 0px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+}
+p {
+  margin-bottom: 5px;
+}
+.button {
+  display: inline-block;
+  padding: 4px 15px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+@media (max-width: 479px) {
+  body {
+    border-left: 1px solid #636060;
+  }
+  .button {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    display: block;
+    width: 70px;
+    height: 70px;
+    margin-right: auto;
+    margin-left: auto;
+    float: right;
+    background-image: url('../images/42-photos.png');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+  }
+  .button.list-button {
+    top: 0px;
+    right: 0px;
+    bottom: auto;
+    width: 45px;
+    height: 45px;
+    min-width: 0px;
+    margin-top: 50px;
+    margin-right: 5px;
+  }
+  .button.gps-button {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    width: 45px;
+    height: 45px;
+    min-width: 0px;
+    margin-right: 5px;
+    margin-bottom: 75px;
+    background-image: url('../images/74-location.png');
+    background-size: 25px;
+  }
+  .button.expand-button {
+    margin-top: 1px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    background-image: none;
+    background-position: 0% 0%;
+    background-size: auto;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    box-shadow: #707070 0px 1px 0px 0px inset;
+    font-size: 25px;
+    line-height: 58px;
+  }
+  .search-bar {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    display: inline;
+    width: 282px;
+    height: 45px;
+    margin-right: auto;
+    margin-left: auto;
+    float: left;
+    clear: left;
+  }
+  .whole-top-bar {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    height: 45px;
+  }
+  .search-button {
+    display: inline-block;
+    width: 48px;
+    height: 45px;
+    float: right;
+    clear: right;
+    background-image: url('../images/06-magnify.png');
+    background-position: 50% 50%;
+    background-size: 33px;
+    background-repeat: no-repeat;
+  }
+  .bottom-right-buttons {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    display: block;
+    width: 73px;
+    height: 91px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    margin-left: auto;
+    padding-left: 2px;
+  }
+  .bottom-right {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    width: 71px;
+  }
+  .top-right-button {
+    position: relative;
+    top: 0px;
+    right: 0px;
+  }
+  .information-bar-unexpanded {
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 70px;
+    background-color: black;
+  }
+  .location-name {
+    height: 55px;
+    float: left;
+    font-size: 15px;
+  }
+}
